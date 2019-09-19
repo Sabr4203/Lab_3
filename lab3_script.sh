@@ -16,7 +16,8 @@ grep "@" regex_practice.txt -c
 echo "303 Area codes: "
 grep "303-" regex_practice.txt 
 grep "@geocities.com" regex_practice.txt > email_results.txt
-git remote add email_results.txt "https://github.com/Sabr4203/Lab_3.git"
+
+git add email_results.txt 
+
 git commit -m "Lab3 Scrip Run"
-git push
 
